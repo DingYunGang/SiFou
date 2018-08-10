@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<title>仿写思否网站主页</title>
+	<link rel="stylesheet" type="text/css" href="sifou.css">
+	 <script src="sifou/js/jquery.min.js"></script>
+</head>
+<body>
+ <header id="header" class="">
+		<a href="#" class="logo">	
+			<img src="sifou/img/1.png">
+		</a>
+		<ul>
+			<li ><a href="">首页</a></li>
+			<li ><a href="">问答</a></li>
+			<li ><a href="">专栏</a></li>
+			<li ><a href="">讲坛</a></li>
+			<li id="p1"><a href="">发现▼</a>
+           <div class="xuanfu1">
+          <img id ="x1" src="images/f1.png">
+           </div>
+			</li>
+			<li id="p2"><input id="x2" type="text" placeholder="搜索问题或者关键字                🔍"></li>
+		</ul>
+		<button class="chuangjian">创建▼</button>
+        
+		<img id="p3" style=" position: absolute;left: 1100px;" src="images/f2.png"> 
+		 <div class="xuanfu2">
+          <img id ="x3" src="images/ff2.png">
+         </div>
+
+
+		<img style=" position: absolute;left: 1150px;" src="images/f3.png"> 
+		<img id="p4" style=" position: absolute;left: 1200px;" src="images/f4.png"> 
+		<div class="xuanfu3">
+          <img id ="x4" src="images/ff3.png">
+         </div>
+<!-- 		<button class="regist">免费注册</button>
+		<button class="write">立即登陆</button> -->
+
+
+		
+		<hr align=center width=100% color=#C0C0C0 size=1>
+	
+	</header>
+	<div class="left">
+	<ul >
+    <li><img src="sifou/img/3.png">我的订阅</li>
+    <li><img src="sifou/img/4.png">近期热门</li>
+    <li><img src="sifou/img/5.png">最新内容</li>
+	</ul><br>
+	<h4 >技术频道</h4><br>
+	<ul >
+    <li><img  src="sifou/img/6.png">前端</li>
+    <li><img src="sifou/img/7.png">后端</li>
+    <li><img src="sifou/img/8.png">区块链</li>
+    <li><img src="sifou/img/9.png">人工智能</li>
+    <li><img src="sifou/img/10.png">Android</li>
+    <li><img src="sifou/img/11.png">iOS</li>
+    <li><img src="sifou/img/12.png">工具</li>
+    <li><img src="sifou/img/13.png">安全</li>
+    <li><img src="sifou/img/14.png">程序员</li>
+    <li><img src="sifou/img/15.png">行业</li>
+    <li><img src="sifou/img/16.png">更多标签</li>
+	</ul>
+	 </div>
+
+	 <div id="banner">
+		<ol class="banner">
+			<li ></li>
+			<li ></li>
+			<li ></li>
+			<li ></li>
+			<li ></li>
+		</ol>
+		<div id="pages">
+			<i class="curr" style="background-color: red"></i>
+			<i style="background-color: red"></i>
+			<i style="background-color: red"></i>
+			<i style="background-color: red"></i>
+			<i style="background-color: red"></i>
+		</div>
+	</div>
+	<br>
+	<script src="sifou/js/jquery3.3.1.js"></script>
+	<script src="sifou/js/index.js"></script>
+
+
+	
+	<div class="middle">
+	 <div class="feed-option">
+     <h5>我的订阅<small>只看推荐</small>
+
+     <button class="btn btn-xs btn-default pull-right hidden-sm hidden-xs settings">推送配置</button></h5>
+     
+       <form class="hidden" action="/api/timeline/option">
+         <label class="radio-inline pl0"><input type="checkbox" value="1" name="noself"> 不看自己</label>
+         <label class="radio-inline"><input type="checkbox" value="1" name="recommend"> 只看推荐</label>
+         <button class="btn btn-xs btn-success pull-right save" type="submit">保存</button>
+         <button class="btn btn-xs btn-default pull-right cancel" type="reset">取消</button>
+         </form>
+     <br>
+	<br>
+	<br>
+     </div> 
+     <br>
+ <hr align=center width=100% color=#C0C0C0 size=1>
+
+
+      <div class="hezi">
+      <div class="box">
+      来自作者 SegmentFault
+      <br>
+      <br>
+      <div class="box-content">
+      <h4>SegmentFault 受邀作为 2018 区块链之星评审机构</h4>
+      <br>
+       如你所见，有一大笔财富和价值正在被区块链创造出来。正如 Blockstack 的创始人 Ryan Shea 和 AngelList 创始人 Naval Ravikant 的经典对话 中所描述的：“贝佐斯的净资产超
+      </div>
+      <div class="box-pic">
+      <img src="images/t1.png">
+      <br>
+      </div>
+      <div class="dibu">
+      <img src="images/tt1.png"> 
+      x 15 赞  SegmentFault 6月26日
+      </div>
+      <br>
+
+      </div>
+     
+</div>
+
+      <div class="box">
+      来自作者 SegmentFault
+     <br>
+      <br>
+      <div class="box-content">
+      <h4>聚焦区块链应用，SegmentFault 黑客马拉松引爆珠三角</h4>
+      <br>
+      6月23日，SegmentFault 思否在广州未来社举办黑客马拉松，聚焦区块链应用 DApp 开发。活动吸引了来自珠三角的极客参与，现场也来自硅谷和多伦多、上海等地区的团队参
+      </div>
+      <div class="box-pic">
+      <img src="images/t2.png">
+      <br>
+      </div>
+      <div class="dibu">
+      <img src="images/tt1.png"> 
+      x 19 赞  SegmentFault 7月12日
+      </div>
+      <br>
+    <hr align=center width=100% color=#C0C0C0 size=1>
+</div>
+
+        <div class="box">
+      来自作者 SegmentFault
+     <br>
+      <br>
+      <div class="box-content">
+      <h4>聚焦区块链应用，SegmentFault 黑客马拉松引爆珠三角</h4>
+      <br>
+      6月23日，SegmentFault 思否在广州未来社举办黑客马拉松，聚焦区块链应用 DApp 开发。活动吸引了来自珠三角的极客参与，现场也来自硅谷和多伦多、上海等地区的团队参
+      </div>
+      <div class="box-pic">
+      <img src="images/t3.png">
+      <br>
+      </div>
+      <div class="dibu">
+      <img src="images/tt1.png"> 
+      x 19 赞  SegmentFault 7月12日
+      </div>
+      <br>
+ <hr align=center width=100% color=#C0C0C0 size=1>
+</div>
+
+
+        <div class="box">
+      来自作者 SegmentFault
+     <br>
+      <br>
+      <div class="box-content">
+      <h4>聚焦区块链应用，SegmentFault 黑客马拉松引爆珠三角</h4>
+      <br>
+      6月23日，SegmentFault 思否在广州未来社举办黑客马拉松，聚焦区块链应用 DApp 开发。活动吸引了来自珠三角的极客参与，现场也来自硅谷和多伦多、上海等地区的团队参
+      </div>
+      <div class="box-pic">
+      <img src="images/t4.png">
+      <br>
+      </div>
+      <div class="dibu">
+      <img src="images/tt1.png"> 
+      x 19 赞  SegmentFault 7月12日
+      </div>
+      <br>
+ <hr align=center width=100% color=#C0C0C0 size=1>
+</div>
+
+
+   <div class="box">
+      来自作者 SegmentFault
+     <br>
+      <br>
+      <div class="box-content">
+      <h4>聚焦区块链应用，SegmentFault 黑客马拉松引爆珠三角</h4>
+      <br>
+      6月23日，SegmentFault 思否在广州未来社举办黑客马拉松，聚焦区块链应用 DApp 开发。活动吸引了来自珠三角的极客参与，现场也来自硅谷和多伦多、上海等地区的团队参
+      </div>
+      <div class="box-pic">
+      <img src="images/t4.png">
+      <br>
+      </div>
+      <div class="dibu">
+      <img src="images/tt1.png"> 
+      x 19 赞  SegmentFault 7月12日
+      </div>
+      <br>
+ <hr align=center width=100% color=#C0C0C0 size=1>
+</div>
+
+
+ <div class="box">
+      来自作者 SegmentFault
+     <br>
+      <br>
+      <div class="box-content">
+      <h4>聚焦区块链应用，SegmentFault 黑客马拉松引爆珠三角</h4>
+      <br>
+      6月23日，SegmentFault 思否在广州未来社举办黑客马拉松，聚焦区块链应用 DApp 开发。活动吸引了来自珠三角的极客参与，现场也来自硅谷和多伦多、上海等地区的团队参
+      </div>
+      <div class="box-pic">
+      <img src="images/t4.png">
+      <br>
+      </div>
+      <div class="dibu">
+      <img src="images/tt1.png"> 
+      x 19 赞  SegmentFault 7月12日
+      </div>
+      <br>
+ <hr align=center width=100% color=#C0C0C0 size=1>
+</div>
+
+
+
+
+
+        <div class="box">
+      来自作者 SegmentFault
+     <br>
+      <br>
+      <div class="box-content">
+      <h4>聚焦区块链应用，SegmentFault 黑客马拉松引爆珠三角</h4>
+      <br>
+      6月23日，SegmentFault 思否在广州未来社举办黑客马拉松，聚焦区块链应用 DApp 开发。活动吸引了来自珠三角的极客参与，现场也来自硅谷和多伦多、上海等地区的团队参
+      </div>
+      <div class="box-pic">
+      <img src="images/t5.png">
+      <br>
+      </div>
+      <div class="dibu">
+      <img src="images/tt1.png"> 
+      x 19 赞  SegmentFault 7月12日
+      </div>
+      <br>
+ <hr align=center width=100% color=#C0C0C0 size=1>
+   </div>
+</div>
+
+  <div class="right">
+        <div class="alert-warning" role="alert">
+            <a class="report" href="https://segmentfault.com/a/1190000015589926">关于 SegmentFault 社区提问标准的一些解释</a>
+        </div>
+        <br>
+        <div>
+        <img src="images/guanggao1.png">
+        </div>
+        <h5 style="position: relative; left: 40px;">想在上方展示你的广告？</h5>
+        <br>
+
+
+   <h4 style="color: green ">推荐讲座</h4>
+    <div id="banner2">
+		<ol class="banner2">
+			<li ></li>
+			<li ></li>
+			<li ></li>
+			<li ></li>
+			<li ></li>
+		</ol>
+	</div>
+<!-- <script src="sifou/js/index2.js"></script>]
+ -->
+
+   <div class="huodong">
+    <h4 style="color: green ">活动推荐 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp更多</h4>
+   </div>
+    <br>
+   <div class="hd2">
+    <img src="images/z1.png">
+
+   </div>
+ <div class="hd3">
+  <h5>K8sMeetup 彩蛋版——聊聊开源落地的那些事儿</h5>
+   <br>
+   <h6 style="color:gray">北京 7-21 周六 报名中 </h6>
+  </div> 
+
+
+</div>
+
+   <div class="huodong2">
+   <div class="hd2">
+    <img src="images/z1.png">
+   </div>
+ <div class="hd3">
+  <h5>K8sMeetup 彩蛋版——聊聊开源落地的那些事儿</h5>
+   <br>
+   <h6 style="color:gray">北京 7-21 周六 报名中 </h6>
+  </div>   
+
+   </div>
+
+
+
+<button class="back_to_top">返回顶部</button>
+<script type="text/javascript">
+var backButton=$('.back_to_top');
+    function backToTop() {
+        $('html,body').animate({
+            scrollTop: 0
+        }, 800);
+    }
+    backButton.on('click', backToTop);
+ 
+    $(window).on('scroll', function () {/*当滚动条的垂直位置大于浏览器所能看到的页面的那部分的高度时，回到顶部按钮就显示 */
+        if ($(window).scrollTop() > $(window).height())
+            backButton.fadeIn();
+        else
+            backButton.fadeOut();
+    });
+    $(window).trigger('scroll');
+
+
+</script>
+
+	<script>
+        $(document).ready(function(){
+         $("#x1").css("display","none");
+       $("#p1").hover(
+		function(){
+			 $("#x1").show();
+		},
+		function(){
+			 $("#x1").hide();
+		}
+    )
+});
+</script>
+
+<script >
+$("#p2").click(function(){
+  $("#x2").animate({
+  	position:'absolute',
+    left:'100px',
+    width:'300px'
+  });
+});
+$("#p2").mouseleave(function(){
+  $("#x2").animate({
+    width:'200px'
+  });
+});
+
+</script>
+
+
+	<script>
+        $(document).ready(function(){
+         $("#x3").css("display","none");
+       $("#p3").hover(
+		function(){
+			 $("#x3").show();
+		},
+		function(){
+			 $("#x3").hide();
+		}
+    )
+});
+</script>
+
+</script>
+	<script>
+        $(document).ready(function(){
+         $("#x4").css("display","none");
+       $("#p4").hover(
+		function(){
+			 $("#x4").show();
+		},
+		function(){
+			 $("#x4").hide();
+		}
+    )
+});
+</script>
+
+</body>
+</html>
